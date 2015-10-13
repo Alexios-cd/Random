@@ -7,12 +7,14 @@
     tools:context=".MainActivity">
 
     <Button
+        android:layout_marginTop="30dp"
         android:id="@+id/leftOrrightRandom_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="左右随机"
         android:textSize="18sp" />
     <Button
+        android:layout_marginTop="20dp"
         android:id="@+id/sjbRandom_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
