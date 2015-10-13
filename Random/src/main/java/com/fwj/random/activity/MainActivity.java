@@ -25,6 +25,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     @Override
     protected void initEvent() {
         findViewById(R.id.leftOrrightRandom_button).setOnClickListener(this);
+        findViewById(R.id.sjbRandom_button).setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +33,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         switch (v.getId()) {
             case R.id.leftOrrightRandom_button:
                 goLeftOrRightRandom();
+                break;
+            case R.id.sjbRandom_button:
+                startActivity(new Intent(MainActivity.this,SJBRandomActivity.class));
                 break;
         }
     }

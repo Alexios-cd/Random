@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.LeftOrRightActivity"/>
+        <activity android:name=".activity.SJBRandomActivity"/>
     </application>
 
 </manifest>
