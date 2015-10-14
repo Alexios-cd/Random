@@ -26,6 +26,7 @@ public class SJBRandomActivity extends BaseActivity implements View.OnClickListe
     @Override
     protected void initView() {
         setContentView(R.layout.activity_sjbrandom);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override

@@ -27,6 +27,7 @@ public class LeftOrRightActivity extends BaseActivity implements View.OnClickLis
     @Override
     protected void initView() {
         setContentView(R.layout.activity_leftorright);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
